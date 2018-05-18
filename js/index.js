@@ -6,3 +6,10 @@ function initMap() {
   });
   new GoogleMap(map);
 }
+
+/**
+ * 1. Afficher le canvas et le bouton réservation lorsque station ouverte et velo dispo
+ * 2. Changer la couleur des marqueurs (rouge si fermé, orange si pas de velo dispo et vert si reservation possible)
+ * 3. Créer le timer (20 min = 120000) ==> setInterval
+ * 4. Commencer à regarder la sessionStorage (pour reprendre une réservation déjà effectuée au rechargement de la page)
+ * */

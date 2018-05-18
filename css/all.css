@@ -113,6 +113,7 @@ section {
     height: 500px;
     border: 1px solid black;
     margin-top: 10px;
+    padding: 10px;
 }
 .confirmation{
     position: relative;
@@ -120,12 +121,18 @@ section {
     height: 500px;
     border: 1px solid black;
     margin-top: 10px;
-	display: none ;
+}
+
+.reservation-status {
+    display: none;
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 75%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 /* MEDIA RESPONSIVE */
 @media screen and (max-device-width: 768px){
-	.titre{
-		text-align: center;
-	}
+
 }

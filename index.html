@@ -49,20 +49,20 @@
     <div class="reserver">
       <h3>détails de la station</h3>
       <div class="informations"></div>
-      <div class="bouton_reservation">
-        <button>Réserver</button>
-      </div>
-    </div>
-    <div class="confirmation">
-      <h3>Réservation</h3>
-      <p>Pour confirmer la réservation de votre vélo, apposez votre signature dans le champ ci-dessous, puis
-        validez.</p>
-      <canvas class="canvas"></canvas>
-      <div class="bouton_confirmation">
-        <button>Valider</button>
+      <div id="reserver-action">
+        <p>Pour confirmer la réservation de votre vélo, apposez votre signature dans le champ ci-dessous, puis validez.</p>
+        <canvas class="canvas"></canvas>
+        <div class="bouton_reservation">
+          <button id="book-btn">Réserver</button>
+        </div>
       </div>
     </div>
   </div>
+</section>
+
+<section class="reservation-status">
+  <p>Adresse de la station réservée: <span id="confirm-address"></span></p>
+  <p>Temps restant: <span id="rest-time"></span></p>
 </section>
 <!--FIN DE LA SECTION -->
 
@@ -80,6 +80,7 @@
 <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 <script type="application/javascript" src="js/lib/jquery-3.3.1.min.js"></script>
 <script type="application/javascript" src="js/slider.js"></script>
+<script type="application/javascript" src="js/reservation-status.js"></script>
 <script type="application/javascript" src="js/google-map.js"></script>
 <script type="application/javascript" src="js/index.js"></script>
 
